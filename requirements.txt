@@ -1,0 +1,2 @@
+# No external libraries are needed.
+# This project only uses Python's built-in modules (getpass, string).
