@@ -110,11 +110,11 @@ def show_result(password):
     rating = get_rating(score)
 
     print()
-    print("-" * 40)
+    print()
     print("Length :", len(password), "characters")
     print("Score  :", score, "/ 7")
     print("Rating :", rating)
-    print("-" * 40)
+    print()
 
     if len(tips) > 0:
         print("Tips to improve:")
@@ -126,9 +126,9 @@ def show_result(password):
 
 
 def main():
-    print("=" * 40)
+    print()
     print("   PASSWORD STRENGTH CHECKER")
-    print("=" * 40)
+    print()
     print("Type a password to check it (it will be hidden).")
     print("Type 'q' to quit.")
     print()
